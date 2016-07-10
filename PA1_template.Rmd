@@ -2,9 +2,7 @@
 title: "Reproducible Research - Peer Assesment"
 author: "Ade Ososami"
 date: "July 10, 2016"
-output: html_document
 ---
-
 
 #Introduction
 
@@ -151,4 +149,7 @@ for (type in c("Weekend", "Weekday")) {
                                         type, FUN = mean)
         plot(steps.type, type = "l", main = type)
 }
+```
+```{r}
+sessionInfo()
 ```
